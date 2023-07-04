@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding-top: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+button{
+    height: 0px;
+    border-radius: 0px; 
+    border: 1px;    
+}
+h1{
+    color: aqua;
+}
+h2{ 
+    padding: 3px;
+    color: aqua;
+}
+.contato{
+    background-color:  #0066cc;
+    color: white;
+    height: 25px;
+    border-radius: 20px;
+    font-family: 'Lucida Sans';
+}
+img{
+    margin: 4px;
+    width: 30px;
+}
+.externo{
+    padding: 20px;
+    background-color: black;
+    color:white;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.meio-contato{
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: right;
+    flex-direction: column;   
+
+}
+footer{
+    padding: 10px;
+    background-color: #0066cc;
+    color: white;
+    text-align: center;
+}
